@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odaklanma Yardımı Sitesi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="p-3 shadow text-white"
+      style="text-align: center; background-color: #3c6e71"
+    >
+      <h2>
+        Çalışmaya başladığınızdan beri telefonunuz <span id="sayi">0</span> kere
+        dikkatinizi dağıttı
+      </h2>
+
+      <button
+        type="button"
+        class="btn btn-primary sayac rounded-4"
+        onclick="document.getElementById('sayi').innerText = parseInt(document.getElementById('sayi').innerText) + 1"
+      >
+        Artır
+      </button>
+    </div>
+
+    <div style="text-align: center" class="pt-5">
+      <h3>
+        Aşağıdaki müzikleri odağınızı kolaylaştırmak amacıyla çalıştığınız
+        sırada dinleyebilirsiniz
+      </h3>
+      <h5 class="pt-3">
+        Çalışırken Müzik Dinlemek: Verimlilik Dostu mu, Dikkat Düşmanı mı?
+      </h5>
+      <p class="pt-3">
+        Günümüzün yoğun tempolu yaşamında, birçok kişi çalışırken müzik
+        dinlemeyi tercih ediyor. Kimi için bu bir odaklanma yöntemi, kimi içinse
+        işlerin monotonluğunu kırmanın yolu. Ancak müziğin gerçekten işe
+        odaklanmayı artırıp artırmadığı, hangi tür müziklerin ne gibi etkiler
+        yarattığı gibi sorular hâlâ tartışma konusu. Bu yazıda çalışırken müzik
+        dinlemenin artılarını, eksilerini ve uygun müzik türlerini ele alacağız.
+      </p>
+      <h5></h5>
+      <ul class="list-group">
+        <li class="list-group-item active" aria-current="true">
+          <span class="fw-bold">1. Odaklanmayı Artırabilir:</span> <br /><br />
+          Özellikle dış seslerin yoğun olduğu ortamlarda, müzik bir "beyaz
+          gürültü" görevi görebilir. Kafe, ofis gibi yerlerde arka plan sesi
+          olarak müzik, dikkat dağıtıcı unsurları bastırarak odaklanmayı
+          kolaylaştırabilir.
+        </li>
+        <li class="list-group-item">
+          <span class="fw-bold"
+            >2. Karmaşık Görevlerde Verimi Düşürebilir:</span
+          >
+          <br /><br />Yaratıcılık ya da problem çözme gibi derin düşünme
+          gerektiren işler sırasında müzik, özellikle ritmi ve melodisi yoğun
+          olan türler, performansı düşürebilir.
+        </li>
+        <li class="list-group-item active" aria-current="true">
+          <span class="fw-bold">3. Ruh Hâlini İyileştirir:</span>
+          <br /><br />
+          Sevdiğiniz bir müzik çalışırken size enerji verebilir, modunuzu
+          yükseltebilir. Bu da genel iş verimini olumlu etkileyebilir.
+        </li>
+
+        <li class="list-group-item">
+          <span class="fw-bold">4. Alışkanlığa Dönüşebilir:</span>
+          <br /><br />Sürekli müzikle çalışmaya alışan kişiler, sessiz
+          ortamlarda konsantrasyon zorluğu yaşayabilir. Bu da uzun vadede
+          bağımlılık etkisi yaratabilir.
+        </li>
+      </ul>
+    </div>
+    <section class="">
+      <div class="row pt-5 pe-5 ps-5">
+        <div class="col-4 text-center">
+          <h4>
+            <a href="https://mynoise.net/" class="text-decoration-none"
+              >myNoise</a
+            >
+          </h4>
+          <img src="/img/mynoise.png" class="img-fluid w-50 pb-3" alt="" />
+          <ul>
+            <li>
+              Özelliği: Çok geniş bir ses kütüphanesi sunar; meditasyon,
+              çalışma, uyku için özel olarak tasarlanmış ses manzaraları
+              bulunur.
+            </li>
+            <li class="pt-2">
+              Artı Noktası: Her sesin frekans ayarı yapılabiliyor, böylece ses
+              profilini kişiselleştirebilirsin.
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 text-center">
+          <h4>
+            <a href="https://www.noisli.com/" class="text-decoration-none"
+              >Noisli</a
+            >
+          </h4>
+          <img src="/img/Noisli.png" class="img-fluid w-50 pb-3" alt="" />
+          <ul>
+            <li>
+              Özelliği: Kendi ses karışımını yapabileceğin bir platform. Yağmur,
+              rüzgar, yaprak hışırtısı, kahve dükkanı sesi gibi birçok doğal ve
+              şehir temalı ses mevcut.
+            </li>
+            <li class="pt-2">
+              Artı Noktası: Zamanlayıcı ve yazı editörü özelliği sayesinde
+              Pomodoro tekniğiyle çalışmak için de ideal.
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 text-center">
+          <h4>
+            <a href="https://endel.io/" class="text-decoration-none">Endel</a>
+          </h4>
+          <img src="/img/Endel.png" class="img-fluid w-50 pb-3" alt="" />
+          <ul>
+            <li>
+              Özelliği: Yapay zekâ destekli bir uygulama. Günün saati, hava
+              durumu ve kalp atış ritmine göre kişiye özel ses ortamı
+              oluşturuyor.
+            </li>
+            <li class="pt-2">
+              Artı Noktası: Bilimsel temelli olarak dikkat, uyku ve gevşeme
+              modları sunuyor. Mobil uygulaması da mevcut.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row pt-3 pe-5 ps-5">
+        <div class="col-4 text-center">
+          <h4>
+            <a href="https://rainymood.com/" class="text-decoration-none"
+              >RainyMood</a
+            >
+          </h4>
+          <img src="/img/rainymood.png" class="img-fluid w-50 pb-3" alt="" />
+          <ul>
+            <li>
+              Özelliği: Sade bir tasarım ve kaliteli yağmur sesi sunar. Hafif
+              gök gürültüsü ve rüzgar efektleri eşlik eder.
+            </li>
+            <li class="pt-2">
+              Artı Noktası: Aynı anda Spotify çalma listesiyle birlikte
+              kullanılabilir.
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 text-center">
+          <h4>
+            <a href="https://www.calm.com/" class="text-decoration-none"
+              >Calm</a
+            >
+          </h4>
+          <img src="/img/calm.png" class="img-fluid w-50 pb-3" alt="" />
+          <ul>
+            <li>
+              Özelliği: Uyku ve meditasyon odaklı bir platform olsa da,
+              odaklanmak isteyenler için doğa sesleri, müzikler ve nefes
+              egzersizleri sunar.
+            </li>
+            <li class="pt-2">
+              Artı Noktası: Profesyonelce kaydedilmiş ses kalitesi ve
+              yönlendirmeli meditasyon içerikleri var.
+            </li>
+          </ul>
+        </div>
+        <div class="col-4 text-center">
+          <h4>
+            <a href="https://asoftmurmur.com/" class="text-decoration-none"
+              >aSoftmurmur</a
+            >
+          </h4>
+          <img src="/img/asoftmurmur.png" class="img-fluid w-50 pb-3" alt="" />
+          <ul>
+            <li>
+              Özelliği: Yağmur, dalga, rüzgar, kuşlar, kahve dükkanı gibi 10
+              farklı ortam sesini karıştırarak kişisel ses manzaraları
+              oluşturabileceğiniz sade ve reklamsız bir web uygulaması.
+            </li>
+            <li class="pt-2">
+              Artı Noktası: “Meander” özelliği sayesinde sesler zamanla
+              değişiyor, böylece arka plan sesleri daha doğal ve canlı bir
+              deneyim sunuyor.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

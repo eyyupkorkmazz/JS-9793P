@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+li.active {
+  background-color: #284b63 !important;
+  border-color: #284b63 !important;
+}
+
+#sayi {
+  color: red;
+  font-size: 2rem;
+}
+
+.sayac {
+  width: 80px !important;
+}
+
+a {
+  font-weight: 600;
+  color: #00940c !important;
+}
